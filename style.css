@@ -1,0 +1,8 @@
+/* Clearing the default 8px space in upper padding */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
