@@ -6,3 +6,11 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+html{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 62.5%;
+    /* changing root element size to 10px */
+    /* so that 1rem = 10px */
+    /* by default its 100% which means 16px */
+}
