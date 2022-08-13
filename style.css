@@ -38,6 +38,8 @@ html {
 }
 
 .player_container:hover{
+  width: 35.5rem;
+  height: 55.5rem;
   box-shadow: 0 0 4rem rgba(0, 0, 0, 0.7);
 }
 
@@ -86,6 +88,8 @@ img {
   font-size: 3.2rem;
   text-shadow: 0rem 0rem 1.9rem black;
 }
+
+/* for animating the image so it moves circular */
 
 .animation{
   animation: rotateImage 3s linear infinite;
