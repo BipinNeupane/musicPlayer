@@ -50,8 +50,8 @@ playMusic.addEventListener("click", () =>{
 const loadSong = (songList) => {
     title.textContent = songList.name;
     artist.textContent = songList.artist;
-    music.src = `music/${songList.track}.mp3`
-    image.src = `src/${songList.track}.png`
+    music.src = `./music/${songList.track}.mp3`
+    image.src = `./src/${songList.track}.png`
 }
 
 let songIndex = 0;
